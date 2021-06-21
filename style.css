@@ -1,0 +1,115 @@
+.stats{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;      
+}
+.sedans{
+    float: left;
+    background-color: hsl(31, 77%, 52%);
+    width: 275px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+.suvs{
+    float: left;
+    background-color: hsl(184, 100%, 22%);
+    width: 275px;
+    height: 400px;   
+}
+.luxury{
+    float: left;
+    background-color: hsl(179, 100%, 13%);
+    width: 275px;
+    height: 400px;  
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+.button-sedans > button{
+    margin-top: 50px;
+    margin-left: 13px;
+    border-radius: 60px;
+    border-width: 2px;
+    width: 120px;
+    cursor: pointer; 
+    background-color: white;
+    color:hsl(31, 77%, 52%) ; 
+    margin-left: 35px;
+}
+.button-sedans > button:hover{
+    background-color: transparent;
+    color: white;
+}
+.button-suvs>button{
+    margin-top: 50px;
+    margin-left: 13px;
+    border-radius: 60px;
+    border-width: 2px;
+    width: 120px;
+    cursor: pointer; 
+    background-color: white;
+    color:hsl(184, 100%, 22%) ; 
+    margin-left: 35px;   
+}
+.button-suvs>button:hover{
+    background-color: transparent;
+    color: white;
+}
+.button-luxury>button{
+    margin-top: 50px;
+    margin-left: 13px;
+    border-radius: 60px;
+    border-width: 2px;
+    width: 120px;
+    cursor: pointer; 
+    background-color: white;
+    color:hsl(179, 100%, 13%) ; 
+    margin-left: 35px;   
+}
+.button-luxury>button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.heading>h4{
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: 'Big Shoulders Display';
+}
+.text>p{
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-size: 15px;
+    color: rgb(251, 247, 247);
+}
+.img>img{
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
